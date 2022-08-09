@@ -1,0 +1,16 @@
+{
+  "name": "Lithney Birthday",
+  "short_name": "Lith day",
+  "icons": [
+    {
+      "src": "/lith1-modified.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#ff4d00",
+  "background_color": "#ff9a00",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait"
+}
