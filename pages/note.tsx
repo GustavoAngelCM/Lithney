@@ -46,7 +46,7 @@ const Note: NextPage = () => {
         <title>Lithney Birthday | Notes</title>
       </Head>
       <div className={'flex w-screen h-screen justify-center items-center flex-col backdrop-blur-sm'}>
-        <div className={'bg-white p-4 sm:h-4/6 h-screen sm:w-8/12 rounded-md shadow-lg w-11/12'}>
+        <div className={'bg-white p-4 sm:h-4/6 h-4/6 sm:w-8/12 rounded-md shadow-lg w-11/12'}>
 
           <div className='flex justify-between'>
             <input

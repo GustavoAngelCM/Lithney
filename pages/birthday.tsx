@@ -17,7 +17,7 @@ const Birthday: NextPage = () => {
         <title>Lithney Birthday | Day</title>
       </Head>
       <div className={'flex w-screen h-screen justify-center items-center flex-col backdrop-blur-md'}>
-        <div className={'bg-white p-4 sm:h-4/6 h-screen sm:w-8/12 rounded-md shadow-lg w-11/12'}>
+        <div className={'bg-white p-4 sm:h-4/6 h-4/6 sm:w-8/12 rounded-md shadow-lg w-11/12'}>
           <div className={'border-l-4 border-red-500 p-2 shadow-md'}>
             <button
               className={'absolute float-right bg-orange-500 my-3 p-2 rounded-full text-white uppercase text-l font-medium hover:bg-orange-600 active:bg-orange-700 focus:outline-none focus:ring focus:ring-orange-400'}
@@ -37,7 +37,21 @@ const Birthday: NextPage = () => {
               <span className={'uppercase font-bold'}>🎉🎂😉Lithney😉🎂🎉</span> </h1>
           </div>
 
-          <div className={'mt-3 md:h-4/6 h-5/6 overflow-y-auto scrollbar-thin scrollbar-thumb-green-700 scrollbar-track-green-300 scrollbar-thumb-rounded-full scrollbar-track-rounded-full'}>
+          <div className={'mt-3 md:h-4/6 h-4/6 overflow-y-auto scrollbar-thin scrollbar-thumb-green-700 scrollbar-track-green-300 scrollbar-thumb-rounded-full scrollbar-track-rounded-full'}>
+
+            <div className={'flex border-l-4 border-red-300 p-2 shadow-md m-2 justify-center'}>
+              <p className={'text-orange-500 text-xl flex flex-col '}>
+                {/* ¡El Señor mismo te cuida!
+                El Señor está a tu lado como tu sombra protectora. */}
+                Hola Lithney.<br/>
+                Espero estes teniendo un bonito dia.<br />
+                Hoy es un día muy especial pues es tu cumpleaños espero te haya gustado lo que te organizamos,<br />
+                y pues de mi parte quiero desearte lo mejor, que vayas creciendo de la mano de nuestro padre Dios.<br />
+                <span className={'italic text-orange-700'}>Y sabemos que a los que aman a Dios, todas las cosas les ayudan a bien.</span>
+                Eres particularmente especial para mi y pues muchas bendiciones y felicitaciones.           
+                <span className={'font-bold text-md text-center'}>Atte. Gustavo [crgt]</span>
+              </p>
+            </div>
 
             <div className={'flex border-l-4 border-green-500 p-2 shadow-md m-2 justify-center'}>
               <p className={'text-green-500 text-xl flex flex-col text-center'}>

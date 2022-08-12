@@ -61,6 +61,7 @@ const Home: NextPage = () => {
           value={key}
           className={'sm:w-11/12 md:w-9/12 text-center p-2 my-3 bg-green-100 rounded-md focus:outline-none focus:border-green-500 focus:ring-2 focus:ring-green-500'}
           placeholder={'Enter key'}
+          type={'password'}
           onChange={onChangueKey}
         />
         {

@@ -18,7 +18,7 @@ const Config: NextPage = () => {
 
   const toDay = () => router.push('birthday')
 
-  const toExit = () => router.push('')
+  const toExit = () => router.push('/')
   
   const toNotes = () => router.push('note')
 
@@ -29,7 +29,7 @@ const Config: NextPage = () => {
         <title>Lithney Birthday | Notes</title>
       </Head>
       <div className={'flex w-screen h-screen justify-center items-center flex-col backdrop-blur-sm'}>
-        <div className={'bg-white p-4 sm:h-4/6 h-screen sm:w-8/12 rounded-md shadow-lg w-11/12'}>
+        <div className={'bg-white p-4 sm:h-2/6 h-2/6 sm:w-8/12 rounded-md shadow-lg w-11/12'}>
           <div className={'border-l-4 border-green-500 p-2 shadow-md m-2 w-full '}>
             <h2 className={'text-green-500 text-xl text-center'}>
               Configuración
@@ -51,7 +51,7 @@ const Config: NextPage = () => {
               Changue password
             </button>
           </div>
-          <div className={'flex flex-col items-center'}>
+          <div className={'flex flex-row flex-wrap justify-around'}>
             <button
               className={'bg-orange-500 my-1 py-2 px-4 rounded-lg text-white uppercase text-xs font-medium hover:bg-orange-600 active:bg-orange-700 focus:outline-none focus:ring focus:ring-orange-400'}
               onClick={toDay}
