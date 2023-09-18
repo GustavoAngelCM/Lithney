@@ -15,6 +15,7 @@ const Home: NextPage = () => {
 
   const validate = () => {
     const pass = value?.data()?.pwd
+    const passEspecial = value?.data()?.pwd18
     if (pass === key) {
       setSuccessMessage('Super 😊 ji ji ji')
 
@@ -22,6 +23,12 @@ const Home: NextPage = () => {
         router.push('birthday')
       }, 1500)
 
+    } else if (passEspecial === key) {
+      setSuccessMessage('Super 💑 ji ji ji')
+
+      setTimeout(() => {
+        router.push('anniversary')
+      }, 1500)
     } else {
       setErrorMessage('Intenta de nuevo porfa')
     }
