@@ -8,8 +8,8 @@ class MyDocument extends Document {
 					<link rel='manifest' href='/manifest.json' />
 					<link rel='icon' href='/lith1-modified.ico' />
 					<link rel='apple-touch-icon' href='/background.jpg' />
-					<meta name='application-name' content='Lith Day' />
-					<meta name='description' content='Lithney Birthday' />
+					<meta name='application-name' content='Lith App' />
+					<meta name='description' content='Lithney App' />
 					<meta name='theme-color' content='#ff4d00' />
 				</Head>
 				<body>
