@@ -29,19 +29,19 @@ const Anniversary: NextPage = () => {
 
             <div className={'flex border-l-4 border-red-300 p-2 shadow-md m-2 flex-row flex-wrap justify-around items-center'}>
               <Image
-                src={'/bg1.jpg'}
+                src={'/bg1.webp'}
                 alt={'first'}
                 width={250}
                 height={150}
               />
               <Image
-                src={'/bg2.jpg'}
+                src={'/bg2.webp'}
                 alt={'first'}
                 width={250}
                 height={150}
               />
               <Image
-                src={'/bg3.jpg'}
+                src={'/bg3.webp'}
                 alt={'first'}
                 width={250}
                 height={150}
